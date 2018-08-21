@@ -1,3 +1,16 @@
+body {
+    background: url(../images/giphybackground.jpg);
+    
+}
+
+.drew-text, #giphyTitle{
+    color: white;
+}
+
+.giphy {
+    background-color: yellowgreen;    
+}
+
 #giphy-view, .giphy, form {
     margin: 10px;
 }
