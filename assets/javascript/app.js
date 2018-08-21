@@ -4,7 +4,7 @@
  function displayMovieInfo() {
 
 var giphy = $(this).attr("data-name");
-var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + giphy + "&api_key=Ea5LJqvjOvXOG3WY4imF3jqbq3DE6lmF&limit=10";
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + giphy + "&api_key=Ea5LJqvjOvXOG3WY4imF3jqbq3DE6lmF&limit=10";
 
 // Creating an AJAX call for the specific movie button being clicked
 $.ajax({
